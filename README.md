@@ -4,6 +4,8 @@ Gimbatuluk is a pattern matching accelerator written in C++11 and OpenCL.
 
 The OpenCL Kernel is implemented using the Parallel Failureless Aho-Corasick algorithm with optional stream compaction of the result set.
 
+If you are curious about the crazy name, it means "to find them all" in J.R.R. Tolkien's Black Speech. It is derived from the inscription upon the One Ring: “Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk agh burzum-ishi krimpatul” meaning; One ring to rule them all, one ring to find them, one ring to bring them all and in the darkness bind them.
+
 There is a detailed write-up of the design approach in the doc directory, the following is a basic summary.
 
 The Aho-Corasick algorithm was first presented in 1975 by Alfred V. Aho and Margaret J. Corasick and is one of the most widely known and commonly adopted pattern scanning algorithms due to its property of matching all patterns in the target dictionary simultaneously.
