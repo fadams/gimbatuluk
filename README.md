@@ -10,8 +10,6 @@ If you are curious about the crazy name, it means "to find them all" in J.R.R. T
 
 **Introduction**
 
-There is a [detailed write-up](doc/gimbatuluk.pdf) of the design approach, the following is a basic summary.
-
 The Aho-Corasick algorithm was first presented in 1975 by Alfred V. Aho and Margaret J. Corasick and is one of the most widely known and commonly adopted pattern scanning algorithms due to its property of matching all patterns in the target dictionary simultaneously.
 
 The conventional Aho-Corasick algorithm can be parallelised effectively via an approach known as the Data Parallel Aho-Corasick (DPAC) algorithm, which partitions the sequence to be scanned into multiple (overlapping) segments and allocates each segment to a processing thread.
